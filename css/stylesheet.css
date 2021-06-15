@@ -283,9 +283,9 @@ transform: rotate(-30deg);
 .writer:before{
 	content: '';
 	position: absolute;
-left: -18%;
-top: 170px;
-background-image: url(../images/writerbg.png);
+left: -15%;
+top: 200px;
+background-image: url(../images/logo1.png);
 background-repeat: no-repeat;
 background-size: 100%;
 width: 50%;
