@@ -218,10 +218,20 @@ z-index: -1;
 width: 130%;
 height: 100%;
 }
+.codetype{
+	font-size: 42px;
+	letter-spacing: -0.2px;
+}
+.codetype .wrap{
+	color: var(--bg-color);
+	font-weight: 500;
+	line-height: 1;
+}
 .banner p{
 	font-size: 24px;
 	width: 60%;
 	color: var(--secondary-color);
+	display: none;
 }
 .btn{
 padding: 10px 25px;
@@ -230,7 +240,11 @@ color: #fff;
 border-radius: 2px;
 font-weight: 500;
 margin-top: 22px;
-font-size: 15px;
+font-size: 17px;
+transition: all 0.3s ease;
+}
+.btn:hover{
+	background-color: #2e76c4;
 }
 /*Banner Section End*/
 
@@ -283,12 +297,12 @@ transform: rotate(-30deg);
 .writer:before{
 	content: '';
 	position: absolute;
-left: -15%;
+left: -8%;
 top: 200px;
 background-image: url(../images/logo1.png);
 background-repeat: no-repeat;
 background-size: 100%;
-width: 50%;
+width: 30%;
 height: 100%;
 filter: grayscale(100%);
 opacity: 0.15;	
